@@ -63,4 +63,44 @@ img{
   border-radius: 0.236em; /* 3.777px */
   }
   
-  
+/*Mobile*/
+@media only screen and (min-width: 600px) {
+html {
+font-size: 1.625em; /* 26px /
+line-height: 1.364em; / 35px / ~ 120% /
+padding: 1.364em; / 35px / ~ 120% */
+}
+#signup{
+font-size: 36px;
+}
+#win{
+font-size: 36px;
+}
+input[type="text"], input[type="email"], input[type="date"]{
+width: 60%;
+}
+label{
+width: 30%;
+}
+}
+
+/*Desktop*/
+@media only screen and (min-width: 960px) {
+html {
+font-size: 1.75em; /* 28px /
+line-height: 1.5em; / 42px / ~ 150% /
+padding: 1.5em; / 42px / ~ 150% */
+}
+#signup{
+font-size: 42px;
+}
+#win{
+font-size: 42px;
+}
+input[type="text"], input[type="email"], input[type="date"]{
+width: 40%;
+}
+label{
+width: 20%;
+}
+}
