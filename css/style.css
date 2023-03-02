@@ -72,15 +72,18 @@ padding: 1.364em; / 35px / ~ 120% */
 }
 #signup{
 font-size: 36px;
+font-family:'Brush Script MT', cursive;
 }
 #win{
 font-size: 36px;
+font-family:'Brush Script MT', cursive;
 }
 input[type="text"], input[type="email"], input[type="date"]{
 width: 60%;
 }
 label{
 width: 30%;
+font-family:Lucida Bright, serif;
 }
 }
 
@@ -96,16 +99,19 @@ font-size: 42px;
 }
 #win{
 font-size: 42px;
+font-family:'Brush Script MT', cursive;
 }
 input[type="text"], input[type="email"], input[type="date"]{
   width:100%;
   margin:auto;
   display: block;
+  
 }
 
 label{
 width: 20%;
 margin:auto;
+font-family:Lucida Bright, serif;
 }
 
 img{
