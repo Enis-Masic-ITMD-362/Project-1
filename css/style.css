@@ -67,9 +67,9 @@ img{
 /*Mobile*/
 @media only screen and (min-width: 600px) {
 html {
-font-size: 1.625em; /* 26px /
-line-height: 1.364em; / 35px / ~ 120% /
-padding: 1.364em; / 35px / ~ 120% */
+font-size: 1.625em; /* 26px */
+line-height: 1.364em; /* 35px / ~ 120% */
+padding: 1.364em; /* 35px / ~ 120% */
 }
 #signup{
 font-size: 36px;
@@ -91,9 +91,9 @@ font-family:'Lucida Bright', serif;
 /*Desktop*/
 @media only screen and (min-width: 960px) {
 html {
-font-size: 1.75em; /* 28px /
-line-height: 1.5em; / 42px / ~ 150% /
-padding: 1.5em; / 42px / ~ 150% */
+font-size: 1.75em; /* 28px */
+line-height: 1.5em; /* 42px / ~ 150% */
+padding: 1.5em; /* 42px / ~ 150% */
 }
 #signup{
 font-size: 42px;
