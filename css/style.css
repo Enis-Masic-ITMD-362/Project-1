@@ -43,7 +43,7 @@ input[type=submit] {
   box-sizing: border-box;
   margin: auto;
   width: 11.089em;
-  background-color: #0D6767;
+  background-color: #e9967a;
   color: white;
   padding: 1em 1.618em; /*16px 25.88px*/
   border: none;
@@ -51,3 +51,14 @@ input[type=submit] {
   cursor: pointer;
   margin-top: 1.5em;
 }
+
+img{
+  display: block;
+  box-sizing: border-box;
+  margin: auto;
+  width: 12%;
+  background-color: #bdb76b;
+  padding: 1em 1.618em; /*16px 25.88px*/
+  border: none;
+  border-radius: 0.236em; /* 3.777px */
+  }
