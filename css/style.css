@@ -39,6 +39,7 @@ input[type="text"], input[type="email"], input[type="date"]{
 
 
 input[type=submit] {
+  font-family:'Rockwell', serif;
   display: block;
   box-sizing: border-box;
   margin: auto;
@@ -83,7 +84,7 @@ width: 60%;
 }
 label{
 width: 30%;
-font-family:Lucida Bright, serif;
+font-family:'Lucida Bright', serif;
 }
 }
 
