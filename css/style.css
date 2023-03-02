@@ -1,0 +1,11 @@
+html {
+  font-size: 1.375em; /* 22px */
+  line-height: 1.182em; /* 26px / ~ 120% */
+  padding: 1.182em; /* 26px / ~ 120% */
+  text-rendering: optimizeLegibility;
+}
+
+body{
+	background-color:#3cb371;
+	color:white;
+}
