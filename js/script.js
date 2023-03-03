@@ -1,4 +1,5 @@
-const form = document.getElementById('raffle');
+const form = document.getElementById('raffle-form');
 form.addEventListener('submit', (event) => {
-  alert('You have been entered in the giveaway');
+  event.preventDefault();
+  alert('You have been raffled');
 });
