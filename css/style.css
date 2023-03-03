@@ -37,7 +37,6 @@ input[type="text"], input[type="email"], input[type="date"]{
   border-radius:  0.313em; /*5px*/
 }
 
-
 input[type=submit] {
   font-family:'Rockwell', serif;
   display: block;
@@ -85,7 +84,6 @@ width: 60%;
 label{
 width: 30%;
 font-family:'Lucida Bright', serif;
-}
 }
 
 /*Desktop*/
