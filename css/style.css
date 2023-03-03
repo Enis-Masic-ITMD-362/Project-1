@@ -6,12 +6,12 @@ html {
 
 #signup{
 	text-align:center;
-	font-size:30px
+	font-size:1.875em; /*30px*/
 }
 
 #win{
 	text-align:center;
-	font-size:30px
+	font-size:1.875em; /*30px*/
 }
 body{
 	background-color:#3cb371;
