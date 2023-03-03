@@ -29,12 +29,12 @@ label{
 }
 
 input[type="text"], input[type="email"], input[type="date"]{
-  padding: 5px;
-  font-size: 16px;
-  margin-bottom: 10px;
+  padding: 0.313em; /*5px*/
+  font-size: 1em; /*16px*/
+  margin-bottom: 0.625em; /*10px*/
   box-sizing: border-box;
   border: 1px solid #ddd;
-  border-radius: 5px;
+  border-radius:  0.313em; /*5px*/
 }
 
 
@@ -72,11 +72,11 @@ line-height: 1.364em; /* 35px / ~ 120% */
 padding: 1.364em; /* 35px / ~ 120% */
 }
 #signup{
-font-size: 36px;
+font-size: 2.25em; /*36px*/
 font-family:'Brush Script MT', cursive;
 }
 #win{
-font-size: 36px;
+font-size: 2.25em; /*36px*/
 font-family:'Brush Script MT', cursive;
 }
 input[type="text"], input[type="email"], input[type="date"]{
