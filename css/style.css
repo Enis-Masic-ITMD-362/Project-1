@@ -11,6 +11,7 @@ html {
 	text-align: center;
 	font-size: 1.875em;
 	/*30px*/
+	margin-bottom:50px;
 }
 
 #win {
@@ -79,36 +80,57 @@ img {
 	/* 3.777px */
 }
 
-@media only screen and (max-width: 90%) {
+@media only screen and (max-width: 768px) {
   /* Styles for mobile devices */
   html {
-    font-size: 1.625em; /* 26px */
-    line-height: 1.364em; /* 35px / ~ 120% */
-    padding: 1.364em; /* 35px / ~ 120% */
+    font-size: 16px;
+    /* 1em = 16px */
+    line-height: 1.2;
+    /* 1.2em = 19.2px / ~ 120% */
+    padding: 2.5em;
+    /* 2.5em = 40px / ~ 2.5% of the font-size */
   }
 
   #signup {
-    font-size: 2.25em; /* 36px */
+    font-size: 2.25em;
+    /* 2.25em = 36px */
     font-family: 'Brush Script MT', cursive;
+    text-align: center;
   }
 
   #win {
-    font-size: 2.25em; /* 36px */
+    font-size: 2.25em;
+    /* 2.25em = 36px */
     font-family: 'Brush Script MT', cursive;
+    text-align: center;
   }
 
   input[type="text"],
   input[type="email"],
   input[type="date"] {
-    width: 60%;
+    width: 80%;
+    /* 80% of the container width */
+    margin: 1.5em auto;
+    /* 1.5em = 24px / ~ 1.5% of the font-size */
+    display: block;
   }
 
   label {
-    width: 30%;
+    width: 100%;
+    /* 100% of the container width */
+    margin: 3em 0;
+    /* 3em = 48px / ~ 3% of the font-size */
     font-family: 'Lucida Bright', serif;
+    text-align: center;
+  }
+
+  img {
+    margin-top: 20px;
+    width: 50%;
+    display: block;
+    margin: 0 auto;
   }
 }
-
 	/*Desktop*/
 	@media only screen and (min-width: 960px) {
 		html {
@@ -146,7 +168,7 @@ img {
 		}
 
 		img {
-			margin: auto;
+			margin-top: 20px;
 			width: 20%
 		}
 	}
