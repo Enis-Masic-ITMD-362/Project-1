@@ -79,39 +79,35 @@ img {
 	/* 3.777px */
 }
 
-/*Mobile*/
-@media only screen and (min-width: 600px) {
-	html {
-		font-size: 1.625em;
-		/* 26px */
-		line-height: 1.364em;
-		/* 35px / ~ 120% */
-		padding: 1.364em;
-		/* 35px / ~ 120% */
-	}
+@media only screen and (max-width: 90%) {
+  /* Styles for mobile devices */
+  html {
+    font-size: 1.625em; /* 26px */
+    line-height: 1.364em; /* 35px / ~ 120% */
+    padding: 1.364em; /* 35px / ~ 120% */
+  }
 
-	#signup {
-		font-size: 2.25em;
-		/*36px*/
-		font-family: 'Brush Script MT', cursive;
-	}
+  #signup {
+    font-size: 2.25em; /* 36px */
+    font-family: 'Brush Script MT', cursive;
+  }
 
-	#win {
-		font-size: 2.25em;
-		/*36px*/
-		font-family: 'Brush Script MT', cursive;
-	}
+  #win {
+    font-size: 2.25em; /* 36px */
+    font-family: 'Brush Script MT', cursive;
+  }
 
-	input[type="text"],
-	input[type="email"],
-	input[type="date"] {
-		width: 60%;
-	}
+  input[type="text"],
+  input[type="email"],
+  input[type="date"] {
+    width: 60%;
+  }
 
-	label {
-		width: 30%;
-		font-family: 'Lucida Bright', serif;
-	}
+  label {
+    width: 30%;
+    font-family: 'Lucida Bright', serif;
+  }
+}
 
 	/*Desktop*/
 	@media only screen and (min-width: 960px) {
