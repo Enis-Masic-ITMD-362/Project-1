@@ -9,16 +9,14 @@ html {
 
 #signup {
 	text-align: center;
-	font-size: 1.875em;
-	/*30px*/
+	font-size: 1.875em;/*30px*/
 	margin-bottom:50px;
 	font-family: "Trirong", serif;
 }
 
 #win {
 	text-align: center;
-	font-size: 1.875em;
-	/*30px*/
+	font-size: 1.875em;/*30px*/
 }
 
 body {
@@ -39,16 +37,12 @@ label {
 input[type="text"],
 input[type="email"],
 input[type="date"] {
-	padding: 0.313em;
-	/*5px*/
-	font-size: 1em;
-	/*16px*/
-	margin-bottom: 0.625em;
-	/*10px*/
+	padding: 0.313em;/*5px*/
+	font-size: 1em;/*16px*/
+	margin-bottom: 0.625em;/*10px*/
 	box-sizing: border-box;
 	border: 1px solid #ddd;
-	border-radius: 0.313em;
-	/*5px*/
+	border-radius: 0.313em;/*5px*/
 }
 
 input[type=submit] {
@@ -59,11 +53,9 @@ input[type=submit] {
 	width: 11.089em;
 	background-color: #e9967a;
 	color: white;
-	padding: 1em 1.618em;
-	/*16px 25.88px*/
+	padding: 1em 1.618em;/*16px 25.88px*/
 	border: none;
-	border-radius: 0.236em;
-	/* 3.777px */
+	border-radius: 0.236em;/* 3.777px */
 	cursor: pointer;
 	margin-top: 1.5em;
 }
@@ -74,34 +66,27 @@ img {
 	margin: auto;
 	width: 14%;
 	background-color: #bdb76b;
-	padding: 1em 1.618em;
-	/*16px 25.88px*/
+	padding: 1em 1.618em;/*16px 25.88px*/
 	border: none;
-	border-radius: 0.236em;
-	/* 3.777px */
+	border-radius: 0.236em;/* 3.777px */
 }
 
+/*Mobile*/
 @media only screen and (max-width: 768px) {
-  /* Styles for mobile devices */
   html {
-    font-size: 16px;
-    /* 1em = 16px */
-    line-height: 1.2;
-    /* 1.2em = 19.2px / ~ 120% */
-    padding: 2.5em;
-    /* 2.5em = 40px / ~ 2.5% of the font-size */
+    font-size: 16px;/* 1em = 16px */
+    line-height: 1.2;/* 1.2em = 19.2px */
+    padding: 2.5em;/* 2.5em = 40px */
   }
 
   #signup {
-    font-size: 2.25em;
-    /* 2.25em = 36px */
+    font-size: 2.25em;/* 2.25em = 36px */
     font-family: 'Brush Script MT', cursive;
     text-align: center;
   }
 
   #win {
-    font-size: 2.25em;
-    /* 2.25em = 36px */
+    font-size: 2.25em;/* 2.25em = 36px */
     font-family: 'Brush Script MT', cursive;
     text-align: center;
   }
@@ -110,17 +95,13 @@ img {
   input[type="email"],
   input[type="date"] {
     width: 80%;
-    /* 80% of the container width */
-    margin: 1.5em auto;
-    /* 1.5em = 24px / ~ 1.5% of the font-size */
+    margin: 1.5em auto;/* 1.5em = 24px */
     display: block;
   }
 
   label {
     width: 100%;
-    /* 100% of the container width */
-    margin: 3em 0;
-    /* 3em = 48px / ~ 3% of the font-size */
+    margin: 3em 0;/* 3em = 48px */
     font-family: 'Lucida Bright', serif;
     text-align: center;
   }
@@ -135,22 +116,17 @@ img {
 	/*Desktop*/
 	@media only screen and (min-width: 960px) {
 		html {
-			font-size: 1.75em;
-			/* 28px */
-			line-height: 1.5em;
-			/* 42px / ~ 150% */
-			padding: 1.5em;
-			/* 42px / ~ 150% */
+			font-size: 1.75em;/* 28px */
+			line-height: 1.5em;/* 42px / ~ 150% */
+			padding: 1.5em;/* 42px / ~ 150% */
 		}
 
 		#signup {
-			font-size: 2.625em;
-			/*42px*/
+			font-size: 2.625em;/*42px*/
 		}
 
 		#win {
-			font-size: 2.625em;
-			/*42px*/
+			font-size: 2.625em;/*42px*/
 			font-family: 'Brush Script MT', cursive;
 		}
 
